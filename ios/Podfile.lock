@@ -1,0 +1,29 @@
+PODS:
+  - Facia (1.0.4)
+  - facia_mobilesdk (1.0.4):
+    - Facia (~> 1.0.4)
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - facia_mobilesdk (from `.symlinks/plugins/facia_mobilesdk/ios`)
+  - Flutter (from `Flutter`)
+
+SPEC REPOS:
+  trunk:
+    - Facia
+
+EXTERNAL SOURCES:
+  facia_mobilesdk:
+    :path: ".symlinks/plugins/facia_mobilesdk/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  Facia: a5120debada8b5ff7ea242d356a5588b4e0e9623
+  facia_mobilesdk: 717594d9332ca435e2602cf1fc551ffb42a31dcc
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+
+PODFILE CHECKSUM: 70d9d25280d0dd177a5f637cdb0f0b0b12c6a189
+
+COCOAPODS: 1.13.0
