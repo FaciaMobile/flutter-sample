@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
     String response = "";
     try {
       response = await FaciaSdk.sendRequest(
-          token: 'sbdashdbashkdbasjhdasjd', configObject: configObj);
+          token: 'ACCESS_TOKEN', configObject: configObj);
       var object = jsonDecode(response);
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(
         content: Text(object.toString()),
