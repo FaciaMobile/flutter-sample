@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:facia_mobilesdk/facia_mobilesdk.dart';
 
-
 void main() {
   runApp(const MyApp());
 }
@@ -75,40 +74,40 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
-  return Scaffold(
-    backgroundColor: Colors.white,
-    body: Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        Expanded(
-          child: Align(
-            alignment: Alignment.bottomCenter,
-            child: Container(
-              width: 200.0,
-              height: 50.0,
-              margin: EdgeInsets.only(bottom: 40.0),
-              child: OutlinedButton(
-                onPressed: continueFun,
-                style: OutlinedButton.styleFrom(
-                  backgroundColor: Color(0xFF007BFF), // Use hex color
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10.0),
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Expanded(
+            child: Align(
+              alignment: Alignment.bottomCenter,
+              child: Container(
+                width: 200.0,
+                height: 50.0,
+                margin: EdgeInsets.only(bottom: 40.0),
+                child: OutlinedButton(
+                  onPressed: continueFun,
+                  style: OutlinedButton.styleFrom(
+                    backgroundColor: Color(0xFF007BFF), // Use hex color
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10.0),
+                    ),
                   ),
-                ),
-                child: Text(
-                  "Open Facia SDK",
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white,
-                    fontFamily: 'OpenSans',
+                  child: Text(
+                    "Open Facia SDK",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                      fontFamily: 'OpenSans',
+                    ),
                   ),
                 ),
               ),
             ),
           ),
-        ),
-      ],
-    ),
-  );
-}
+        ],
+      ),
+    );
+  }
 }

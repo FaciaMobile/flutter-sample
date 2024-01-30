@@ -1,3 +1,16 @@
-# Welcome to Flutter Sample App
+# fluttersample
 
-Please note that this is the sample app for flutter, designed to provide a glimpse of our powerful features. For the actual SDK and comprehensive integration guide, please visit **[Flutter Integration Guide](https://developers.facia.ai/platforms/flutter-sdk)**
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
