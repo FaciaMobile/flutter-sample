@@ -1,7 +1,7 @@
 PODS:
-  - Facia (1.1.2)
-  - facia_mobilesdk (1.1.2):
-    - Facia (~> 1.1.2)
+  - Facia (1.1.4)
+  - facia_mobilesdk (1.1.4):
+    - Facia (~> 1.1.4)
     - Flutter
   - Flutter (1.0.0)
 
@@ -20,8 +20,8 @@ EXTERNAL SOURCES:
     :path: Flutter
 
 SPEC CHECKSUMS:
-  Facia: 5775a549f4de45d42174f6bccbf03063af25b9f0
-  facia_mobilesdk: 4600e53e2c2c92429e9ed10166759ed61b15e619
+  Facia: 7086344671cfd83419ad9d65d4454e25fee0b93f
+  facia_mobilesdk: d1fb05df2859c44882475ae8fbeafce3189ee740
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
 
 PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
