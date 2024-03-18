@@ -39,7 +39,7 @@
     },
     {
       "name": "facia_mobilesdk",
-      "rootUri": "file:///Users/yasir.siddique/.pub-cache/hosted/pub.dev/facia_mobilesdk-1.1.2",
+      "rootUri": "file:///Users/yasir.siddique/.pub-cache/hosted/pub.dev/facia_mobilesdk-1.1.3",
       "packageUri": "lib/",
       "languageVersion": "2.15"
     },
@@ -158,7 +158,7 @@
       "languageVersion": "3.2"
     }
   ],
-  "generated": "2024-02-23T09:35:59.315150Z",
+  "generated": "2024-03-18T06:53:36.742275Z",
   "generator": "pub",
   "generatorVersion": "3.2.6"
 }
