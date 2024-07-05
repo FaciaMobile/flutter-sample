@@ -53,10 +53,10 @@ packages:
     dependency: "direct main"
     description:
       name: facia_mobilesdk
-      sha256: "8199aba160878abf5eb3bba390ecb0374468da123c802c7891de5c57c2f293ec"
+      sha256: "327746411ea8429b00f202b798ffe5d4b1f9c81e11b46d7905f093bfbf7a1903"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.4"
+    version: "1.1.8"
   fake_async:
     dependency: transitive
     description:
