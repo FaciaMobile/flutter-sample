@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:convert';
-import 'package:facia_mobilesdk/facia_mobilesdk.dart';
+import 'package:facia_flutter_sdk/facia_flutter_sdk.dart';
 
 void main() {
   runApp(const MyApp());
